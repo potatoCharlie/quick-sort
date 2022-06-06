@@ -1,0 +1,3 @@
+sudo service docker start
+sudo docker build --tag quick-sort .
+sudo docker run --publish 8080:8080 quick-sort
